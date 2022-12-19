@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Deeghayu Adhikari">
+    <meta name="keywords"
+        content="Deeghayu Adhikari, Web developer, Student, Sri lanka, Data scientists, Machine learning engineer, A.I, artificial intelligence engineer">
+    <!-- ===== SWIPER CSS ===== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/pagecustomizer.css">
+    <!-- ===== Dark mode by system ===== ---->
+    <link rel="stylesheet" href="assets/css/light-styles.css"
+        media="(prefers-color-scheme:light), (prefers-color-scheme:no-preference)">
+    <link rel="stylesheet" href="assets/css/dark-styles.css" media="(prefers-color-scheme:dark)">
+
+    <!-- ===== head ===== -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👧🏻</text></svg>">
+    <title>Hiruni Bandara</title>
+</head>
+
+<body>
+    <!--===== Cursor and Loader, detect browser =====-->
+    <div id="info"></div>
+    <div class="cursor"></div>
+    <div id="loader-wrapper">
+        <div class="loader ">
+            <div class="loader__nav ">
+                <div class="loader__logo color__loader skeleton"></div>
+                <div class="loader__nav__menu">
+                    <ul class="loader__nav__list">
+                        <li class="loader__nav__item color__loader skeleton"></li>
+                        <li class="loader__nav__item color__loader skeleton"></li>
+                        <li class="loader__nav__item color__loader skeleton"></li>
+                        <li class="loader__nav__item color__loader skeleton"></li>
+                        <li class="loader__nav__item color__loader skeleton"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="home__main__flex">
+                <div class="loader__home__data color__loader">
+                    <div class="loader__home__content">
+                        <div class="loader__emoji color__loader skeleton"></div>
+                        <div class="loader__home__text">
+                            <div class="loader__home__greeting color__loader skeleton"></div>
+                            <div class="loader__home__name__padding color__loader skeleton">
+                                <span class="chrome__text">For best view, Use <b>Chrome</b></span>
+                            </div>
+                            <div class="loader__button color__loader skeleton"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="loader__img color__loader skeleton"></div>
+            </div>
+            <div class="loader__home__social__container">
+                <div class="loader__home__social">
+                    <div class="loader__home__social__icon color__loader skeleton"></div>
+                    <div class="loader__home__social__icon color__loader skeleton"></div>
+                    <div class="loader__home__social__icon color__loader skeleton"></div>
+                    <div class="loader__home__social__icon color__loader skeleton"></div>
+                    <div class="loader__home__social__icon color__loader skeleton"></div>
+                    <div class="loader__home__social__icon color__loader skeleton"></div>
+                </div>
+            </div>
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!--===== SCROLL TOP =====-->
+    <a href="#" class="scrolltop glassmorphism__button-2" id="scroll-top">
+        <i class='bx bxs-chevrons-up scrolltop__icon'></i>
+    </a>
+
+    <!--===== HEADER =====-->
+    <header class="l-header " id="header">
+        <nav class="nav bd-container">
+            <a href="" class="nav__logo">👧🏻 Hiru</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link"><span>Home</span></a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link"><span>About</span></a></li>
+                    <li class="nav__item"><a href="#Other" class="nav__link"><span>Other Skill</span></a></li>
+                    <li class="nav__item"><a href="#Qulification" class="nav__link"><span>Qulification</span></a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data glassmorphism">
+                    <div class="home__content">
+                        <span class="greeting__emoji">👋</span>
+                        <div>
+                            <span class="home__greeting">Hi, I am</span>
+                            <div class="home__name__padding">
+                                <h1 class="home__name">Hiruni Bandara</h1>
+
+                                <a href="#contact" class="button button-light glassmorphism__button">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__social">
+                    <a href="#" id="dark-mode-toggle" class="home__social-icon  glassmorphism__button"><i
+                            class='bx bx-sun'></i>
+                        <span class="tooltip">Dark mode toggle<br>If system dark mode is on, this toggle will not
+                            work</span>
+                        <a href="https://www.facebook.com/hirunibandara"
+                            class="home__social-icon  glassmorphism__button"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/hirunibandara/"
+                            class="home__social-icon  glassmorphism__button"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/hirunibandara" class="home__social-icon glassmorphism__button"><i
+                                class='bx bxl-twitter'></i></a>
+                        <a href="https://github.com/20005590" class="home__social-icon glassmorphism__button"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/hirunibandara"
+                            class="home__social-icon glassmorphism__button"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <div class="home__img__group">
+                    <div class="home__img">
+                        <div id="scene">
+                            <img src="assets/img/3D_man.png" id="home__img" data-depth=".5"
+                                alt="3d animation will upload soon">
+                            <img src="assets/img/object1.png" class="home__objects objects1" data-depth="0.75">
+                            <img src="assets/img/object2.png" class="home__objects objects2" data-depth="1.0">
+                            <img src="assets/img/object3.png" class="home__objects objects3" data-depth="0.25">
+                        </div>
+                    </div>
+        </section>
+        <!--===== ABOUT =====-->
+        <section class="about section bd-container" id="about">
+            <span class="section-subtitle">Past</span>
+            <h2 class="section-title">About me </h2>
+            <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                    <p class="about__description"><span>There is no much, but<br></span>
+                        Ambitious ,adaptable efficient and self motivated student of biotechnology.Eager to seek opportunity for the biological
+                        research by analytical thinking.
+                        <br>
+                    </p>
+                </div>
+                <img src="assets/img/About.jpg" alt="This image will also upload soon" class="about__img glassmorphism">
+            </div>
+        </section>
+                <!--===== other =====-->
+                <section class="about section bd-container" id="other">
+                    <span class="section-subtitle">Present</span>
+                    <h2 class="section-title">Other Skills</h2>
+                    <div class="about__container">
+                        <div class="about__data">
+                            <p class="about__description"><span>Hobbies 
+                            </span>
+                            <br>Reading
+                            <br>Dancing
+                            <br>Traveling
+                            <br>
+                            <br>
+                            <span>Other Qulification</span>
+                            <br>
+                            Good communication skills in English and Sinhala
+                            Ability to work with Ms word, Power Point and MS excel
+                                <br>
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+     
+        <!--===== QUALIFICATION =====-->
+        <section class="qualification section bd-container" id="Qualification">
+            <span class="section-subtitle">Experience and Education</span>
+            <h2 class="section-title">Qualification</h2>
+
+            <div class="qualification__container bd-grid">
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-briefcase-alt qualification__title-icon"></i>
+                         Other Qualification
+                    </h2>
+                    <div class="bd-grid">
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">IT diploma</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class="bx bx-briefcase-alt qualification__title-icon"></i>
+                                   ESOFT metro campus
+                                </span>
+                                <span class="qualification__work">
+                                    <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                                    2017
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-bookmark-alt qualification__title-icon"></i>
+                        Education
+                    </h2>
+
+                    <div class="bd-grid">
+
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Undergraduate</h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class="bx bxs-graduation qualification__title-icon"></i>
+                                    (UG) BSc BioTechnology - SLIIT Campus
+                                </span>
+                                <span class="qualification__work">
+                                    <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                                    2022 - 2026
+                                </span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                        <h3 class="qualification__area">G.C.E. A/L</h3>
+                        <div class="qualification__box">
+                            <span class="qualification__work">
+                                <i class="bx bxs-graduation qualification__title-icon"></i>
+                                3 C passes in Bio Stream
+                            </span>
+                            <span class="qualification__work">
+                                <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                                2021
+                            </span>
+                        </div>
+                        </div>
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">G.C.E. O/L </h3>
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class="bx bxs-graduation qualification__title-icon"></i>
+                                    8A's and 1B
+                                </span>
+                                <span class="qualification__work">
+                                    <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                                    2016
+                                </span>
+                            </div>
+                        </div>
+
+                   
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 
+
+        <!--===== CONTACTME =====-->
+        <section class="contact section bd-container" id="contact">
+            <span class="section-subtitle">Feel free to</span>
+            <h2 class="section-title">Contact me</h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__content bd-grid">
+                    <div class="contact__box glassmorphism">
+                        <i class='bx bx-home-heart contact__icon'></i>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__description"><a href="https://goo.gl/maps/gNUBb7oCYTCLjALT8"
+                                class="contact__text">Nittabuwa, Sri Lanka</a></span>
+                    </div>
+
+                    <div class="contact__box glassmorphism">
+                        <i class='bx bx-phone contact__icon'></i>
+                        <h3 class="contact__title">Phone</h3>
+                        <span class="contact__description"><a href="tel:+94777-329-760"
+                                class="contact__text">+94-762-960-278</a></span>
+                    </div>
+
+                    <div class="contact__box glassmorphism">
+                        <i class='bx bx-envelope contact__icon'></i>
+                        <h3 class="contact__title">Mail</h3>
+                        <span class="contact__description"><a
+                                href="mailto:hvbandara14@gmail.com?subject=Mail%20from%20website"
+                                class="contact__text">hvbandara14@gmail.com</a></span>
+                    </div>
+
+                    <div class="contact__box glassmorphism">
+                        <i class='bx bx-chat contact__icon'></i>
+                        <h3 class="contact__title">Chat</h3>
+                        <div>
+                            <a href="https://wa.link/x3r32z" class="contact__social"><i class='bx bxl-whatsapp'></i></a>
+                            <a href="sms:+94777329760;?&body=This%20message%20from%20your%20website"
+                                class="contact__social"><i class='bx bxs-message-detail'></i></a>
+                            <a href="https://t.me/MrDrac01" class="contact__social"><i class='bx bxl-telegram'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formspree.io/f/xnqljrpj" method="POST" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__duo">
+                            <input type="text" placeholder="Name" name="name" class="contact__input">
+                            <span class="contact__header">Name</span>
+                        </div>
+                        <div class="contact__duo">
+                            <input type="email" placeholder="E-mail" name="email" class="contact__input">
+                            <span class="contact__header">E-mail</span>
+                        </div>
+                    </div>
+                    <div class="contact__duo">
+                        <input type="text" placeholder="Topic" name="reason" class="contact__input">
+                        <span class="contact__header">Topic</span>
+                    </div>
+                    <div class="contact__duo">
+                        <textarea input type="text" id="Message" cols="0" rows="7" placeholder="Message" name="message"
+                            class="contact__input"></textarea>
+                        <span class="contact__header">Message</span>
+                    </div>
+                    <input type="Submit" value="Send Message" class="button contact__button">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__container bd-container">
+            <h1 class="footer__title">&#169;2022 Hiruni Bandara</h1>
+        </div>
+    </footer>
+    <!-- ===== Parallax.js ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <!-- ===== MIXITUP FILTER ===== -->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ===== GSAP js===== -->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+
+    <!--===== MAIN JS and Parallax animation Js=====-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/Parallax_animation.js"></script>
+
+    <!--===== detect_browser =====-->
+    <script src="assets/js/detect_browser.js"></script>
+
+    <!--===== Jquary js =====-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        const cursor = $('.cursor');
+        $(document).mouseleave(function (e) {
+            const cursor = $('.cursor');
+            cursor.hide()
+        });
+        $(document).mouseenter(function (e) {
+            const cursor = $('.cursor');
+            cursor.show()
+        });
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('body').addClass('loaded');
+            }, 1500);
+        });
+    </script>
+    <script src="./assets/js/timer.js"></script>
+</body>
+
+</html>
